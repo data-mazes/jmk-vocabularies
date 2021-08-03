@@ -61,7 +61,8 @@
     "build:node": "tsc",
     "build:modern": "babel src --out-dir . --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
     "build": "run-p build:*",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "release": "changeset publish"
   },
   "author": "Data Mazes Sp. z o.o.",
   "license": "MIT",
