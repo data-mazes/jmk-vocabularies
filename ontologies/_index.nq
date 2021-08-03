@@ -1,0 +1,5 @@
+<https://prefix.jmk.org.pl/jmk:> <http://dbpedia.org/ontology/filename> "ontologies/jmk.nq" .
+<https://prefix.jmk.org.pl/jmk:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.jmk.org.pl/jmk:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <file:src/vocabulary/jmk.ttl> .
+<https://prefix.jmk.org.pl/jmk:> <http://www.w3.org/ns/rdfa#prefix> "jmk" .
+<https://prefix.jmk.org.pl/jmk:> <http://www.w3.org/ns/rdfa#uri> <https://jmk.org.pl/vocab#> .

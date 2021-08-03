@@ -1,0 +1,20 @@
+<https://jmk.org.pl/vocab#Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://jmk.org.pl/vocab#Vehicle> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#Dictionary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/hydra/core#Collection> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#Registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#bodyBuilder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#bodyBuilder> <http://www.w3.org/2000/01/rdf-schema#domain> <https://jmk.org.pl/vocab#Vehicle> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#bodyBuilder> <http://www.w3.org/2000/01/rdf-schema#range> <https://jmk.org.pl/vocab#Company> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#bodyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#bodyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Vehicle's body (city, intercity, etc)" <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#count> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of registered vehicles" <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#count> <http://www.w3.org/2000/01/rdf-schema#domain> <https://jmk.org.pl/vocab#Registration> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#temporary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#totalCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#totalCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://jmk.org.pl/vocab#Vehicle> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://jmk.org.pl/vocab#> .
+<https://jmk.org.pl/vocab#vehicle> <http://www.w3.org/2000/01/rdf-schema#range> <https://jmk.org.pl/vocab#Vehicle> <https://jmk.org.pl/vocab#> .

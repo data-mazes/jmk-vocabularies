@@ -1,5 +1,6 @@
 const prefixes = {
   // Add with your prefixes here
+  jmk: 'https://jmk.org.pl/vocab#'
 }
 
 type LocalPrefixes = typeof prefixes

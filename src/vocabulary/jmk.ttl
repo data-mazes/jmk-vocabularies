@@ -1,0 +1,56 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX schema: <http://schema.org/>
+PREFIX code: <https://code.described.at/>
+PREFIX jmk: <https://jmk.org.pl/vocab#>
+PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+## Classes
+
+jmk:Registration a rdfs:Class .
+
+jmk:Vehicle a rdfs:Class .
+
+jmk:Bus
+  a rdfs:Class ;
+  rdfs:subClassOf jmk:Vehicle ;
+.
+
+jmk:Dictionary
+  rdfs:subClassOf hydra:Collection ;
+.
+
+jmk:Company rdfs:subClassOf schema:Organization .
+
+## Properties
+
+jmk:vehicle
+  a rdf:Property ;
+  rdfs:range jmk:Vehicle ;
+.
+
+jmk:count
+  a rdf:Property ;
+  rdfs:domain jmk:Registration ;
+  rdfs:comment "Number of registered vehicles" ;
+.
+
+jmk:owner a rdf:Property .
+
+jmk:temporary a rdf:Property .
+
+jmk:bodyBuilder
+  a rdf:Property ;
+  rdfs:range jmk:Company ;
+  rdfs:domain jmk:Vehicle ;
+.
+
+jmk:bodyType
+  a rdf:Property ;
+  rdfs:comment "Vehicle's body (city, intercity, etc)" ;
+.
+
+jmk:totalCapacity
+  a rdf:Property ;
+  rdfs:domain jmk:Vehicle ;
+.
