@@ -41,8 +41,13 @@ jmk:temporary a rdf:Property .
 
 jmk:bodyBuilder
   a rdf:Property ;
-  rdfs:range jmk:Company ;
+  rdfs:range jmk:BodyBuilder ;
   rdfs:domain jmk:Vehicle ;
+.
+
+jmk:BodyBuilder
+  a rdfs:Class ;
+  rdfs:subClassOf jmk:Company ;
 .
 
 jmk:bodyType
